@@ -1,6 +1,6 @@
 // selectors
 $(document).ready(function () {
   $('button').click(function () {
-    $('p').hide();
+    $('p').css('background-color', 'blue');
   });
 });
